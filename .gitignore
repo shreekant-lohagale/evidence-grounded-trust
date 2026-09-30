@@ -1,0 +1,176 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python environments
+venv/
+.venv/
+env/
+ENV/
+practice/
+
+# ============================================
+# Environment Variables / API Keys
+# ============================================
+.env
+.env.*
+!.env.example
+
+# NEVER push secrets
+*.key
+*.pem
+secrets.json
+
+# ============================================
+# IDE / Editor
+# ============================================
+.vscode/
+.idea/
+*.code-workspace
+
+# ============================================
+# Jupyter Notebook
+# ============================================
+.ipynb_checkpoints/
+
+# ============================================
+# Python Build Files
+# ============================================
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ============================================
+# Testing / Coverage
+# ============================================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+
+# ============================================
+# Logs
+# ============================================
+*.log
+logs/
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Dataset / Large Data
+# ============================================
+data/raw/
+data/processed/
+datasets/
+
+*.csv
+*.jsonl
+*.parquet
+
+# Keep small sample/test data if needed
+!data/sample/
+!data/sample/**
+
+# ============================================
+# Vector Databases
+# ============================================
+
+# FAISS
+faiss_index/
+vector_store/
+vectorstore/
+*.faiss
+*.index
+
+# ChromaDB
+chroma_db/
+chroma/
+.chroma/
+
+# Qdrant local storage
+qdrant_storage/
+storage/
+
+# ============================================
+# Neo4j
+# ============================================
+neo4j/data/
+neo4j/logs/
+neo4j/import/
+neo4j/plugins/
+neo4j/conf/
+
+# ============================================
+# ML / AI Models
+# ============================================
+models/
+checkpoints/
+weights/
+
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.safetensors
+
+# Hugging Face cache
+.cache/
+huggingface/
+hf_cache/
+
+# ============================================
+# Generated Embeddings / Artifacts
+# ============================================
+embeddings/
+artifacts/
+outputs/
+results/
+generated/
+
+# ============================================
+# Temporary Files
+# ============================================
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ============================================
+# Local Database Files
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# Node / React frontend (if added later)
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Frontend build
+frontend/dist/
+frontend/build/
+
+# ============================================
+# Miscellaneous
+# ============================================
+.DS_Store
+*.swp
+*.swo
